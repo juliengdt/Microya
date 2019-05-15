@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A102BD481F02355A000C6B38 /* Microya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD3E1F02355A000C6B38 /* Microya.framework */; };
-		A102BD661F023573000C6B38 /* Microya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD5D1F023573000C6B38 /* Microya.framework */; };
-		A102BD821F023582000C6B38 /* Microya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102BD791F023582000C6B38 /* Microya.framework */; };
 		A102BDB31F0238E8000C6B38 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102BDB01F0238BD000C6B38 /* ExampleTests.swift */; };
 		A102BDB41F0238E8000C6B38 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102BDB01F0238BD000C6B38 /* ExampleTests.swift */; };
 		A102BDB51F0238E9000C6B38 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102BDB01F0238BD000C6B38 /* ExampleTests.swift */; };
@@ -17,18 +14,14 @@
 		A102BE001F023E33000C6B38 /* Microya.h in Headers */ = {isa = PBXBuildFile; fileRef = A102BDFE1F023E13000C6B38 /* Microya.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A102BE011F023E33000C6B38 /* Microya.h in Headers */ = {isa = PBXBuildFile; fileRef = A102BDFE1F023E13000C6B38 /* Microya.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A102BE021F023E34000C6B38 /* Microya.h in Headers */ = {isa = PBXBuildFile; fileRef = A102BDFE1F023E13000C6B38 /* Microya.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1F167752215AE6E0094788D /* JsonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F167742215AE6E0094788D /* JsonApi.swift */; };
-		A1F167762215AE6E0094788D /* JsonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F167742215AE6E0094788D /* JsonApi.swift */; };
-		A1F167772215AE6E0094788D /* JsonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F167742215AE6E0094788D /* JsonApi.swift */; };
-		A1F167782215AE6E0094788D /* JsonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F167742215AE6E0094788D /* JsonApi.swift */; };
-		A1F167C82215AFE50094788D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F167C72215AFE50094788D /* Result.swift */; };
-		A1F167C92215AFE50094788D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F167C72215AFE50094788D /* Result.swift */; };
-		A1F167CA2215AFE50094788D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F167C72215AFE50094788D /* Result.swift */; };
-		A1F167CB2215AFE50094788D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F167C72215AFE50094788D /* Result.swift */; };
-		A1F167CD2215B0360094788D /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F167CC2215B0360094788D /* Method.swift */; };
-		A1F167CE2215B0360094788D /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F167CC2215B0360094788D /* Method.swift */; };
-		A1F167CF2215B0360094788D /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F167CC2215B0360094788D /* Method.swift */; };
-		A1F167D02215B0360094788D /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F167CC2215B0360094788D /* Method.swift */; };
+		F9E95887228C406400047CE8 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E95885228C406400047CE8 /* Method.swift */; };
+		F9E95888228C406400047CE8 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E95885228C406400047CE8 /* Method.swift */; };
+		F9E95889228C406400047CE8 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E95885228C406400047CE8 /* Method.swift */; };
+		F9E9588A228C406400047CE8 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E95885228C406400047CE8 /* Method.swift */; };
+		F9E9588B228C406400047CE8 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E95886228C406400047CE8 /* TargetType.swift */; };
+		F9E9588C228C406400047CE8 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E95886228C406400047CE8 /* TargetType.swift */; };
+		F9E9588D228C406400047CE8 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E95886228C406400047CE8 /* TargetType.swift */; };
+		F9E9588E228C406400047CE8 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E95886228C406400047CE8 /* TargetType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,27 +88,24 @@
 		820560AA217DE92600E23A81 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
 		820560AB217DE93100E23A81 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 		820560AD217DE95A00E23A81 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
-		A102BD3E1F02355A000C6B38 /* Microya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Microya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A102BD471F02355A000C6B38 /* Microya-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Microya-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A102BD5D1F023573000C6B38 /* Microya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Microya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A102BD651F023573000C6B38 /* Microya-macOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Microya-macOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A102BD791F023582000C6B38 /* Microya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Microya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A102BD811F023582000C6B38 /* Microya-tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Microya-tvOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A102BD951F02358E000C6B38 /* Microya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Microya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A102BDA31F02387A000C6B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A102BDB01F0238BD000C6B38 /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
 		A102BDB21F0238BD000C6B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A102BDB71F023A7D000C6B38 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		A102BDB91F023A9A000C6B38 /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
 		A102BDD51F023CAA000C6B38 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		A102BDFE1F023E13000C6B38 /* Microya.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Microya.h; sourceTree = "<group>"; };
 		A15AD1201F0240C9004D7ED3 /* Microya.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Microya.podspec; sourceTree = "<group>"; };
 		A15AD1211F02447E004D7ED3 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		A15AD1241F0262D1004D7ED3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A1F167732215A5260094788D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		A1F167742215AE6E0094788D /* JsonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonApi.swift; sourceTree = "<group>"; };
-		A1F167C72215AFE50094788D /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		A1F167CC2215B0360094788D /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		F9726F80228C5E6400DB4F05 /* Microya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Microya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9726F81228C5E6400DB4F05 /* Microya-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Microya-iOS-Tests.xctest"; path = "/Users/julien/Documents/Personal/Microya/build/Debug/Microya-iOS-Tests.xctest"; sourceTree = "<absolute>"; };
+		F9726F82228C5E6400DB4F05 /* Microya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Microya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9726F83228C5E6400DB4F05 /* Microya-macOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Microya-macOS-Tests.xctest"; path = "/Users/julien/Documents/Personal/Microya/build/Debug/Microya-macOS-Tests.xctest"; sourceTree = "<absolute>"; };
+		F9726F84228C5E6400DB4F05 /* Microya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Microya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9726F85228C5E6400DB4F05 /* Microya-tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Microya-tvOS-Tests.xctest"; path = "/Users/julien/Documents/Personal/Microya/build/Debug-appletvos/Microya-tvOS-Tests.xctest"; sourceTree = "<absolute>"; };
+		F9726F86228C5E6400DB4F05 /* Microya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Microya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E95885228C406400047CE8 /* Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		F9E95886228C406400047CE8 /* TargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +120,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A102BD481F02355A000C6B38 /* Microya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +134,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A102BD661F023573000C6B38 /* Microya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +148,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A102BD821F023582000C6B38 /* Microya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,46 +161,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		82056065217DCF0700E23A81 /* Globals */ = {
-			isa = PBXGroup;
-			children = (
-				A1F167C72215AFE50094788D /* Result.swift */,
-			);
-			path = Globals;
-			sourceTree = "<group>";
-		};
-		82056066217DCF1700E23A81 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				A1F167742215AE6E0094788D /* JsonApi.swift */,
-				A1F167CC2215B0360094788D /* Method.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		A102BD341F02355A000C6B38 = {
 			isa = PBXGroup;
 			children = (
 				A102BD9D1F02387A000C6B38 /* Frameworks */,
 				A102BDAE1F0238BD000C6B38 /* Tests */,
 				A102BDB61F023A6D000C6B38 /* RootFiles */,
-				A102BDBA1F023B06000C6B38 /* Carthage */,
-				A102BD3F1F02355A000C6B38 /* Products */,
+				F9726F84228C5E6400DB4F05 /* Microya.framework */,
+				F9726F80228C5E6400DB4F05 /* Microya.framework */,
+				F9726F86228C5E6400DB4F05 /* Microya.framework */,
+				F9726F98228C64C000DB4F05 /* Products */,
+				F9726F82228C5E6400DB4F05 /* Microya.framework */,
 			);
-			sourceTree = "<group>";
-		};
-		A102BD3F1F02355A000C6B38 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A102BD3E1F02355A000C6B38 /* Microya.framework */,
-				A102BD471F02355A000C6B38 /* Microya-iOS-Tests.xctest */,
-				A102BD5D1F023573000C6B38 /* Microya.framework */,
-				A102BD651F023573000C6B38 /* Microya-macOS-Tests.xctest */,
-				A102BD791F023582000C6B38 /* Microya.framework */,
-				A102BD811F023582000C6B38 /* Microya-tvOS-Tests.xctest */,
-				A102BD951F02358E000C6B38 /* Microya.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		A102BD9D1F02387A000C6B38 /* Frameworks */ = {
@@ -228,8 +187,8 @@
 		A102BDA01F02387A000C6B38 /* Microya */ = {
 			isa = PBXGroup;
 			children = (
-				82056065217DCF0700E23A81 /* Globals */,
-				82056066217DCF1700E23A81 /* Models */,
+				F9E95886228C406400047CE8 /* TargetType.swift */,
+				F9E95885228C406400047CE8 /* Method.swift */,
 			);
 			path = Microya;
 			sourceTree = "<group>";
@@ -275,8 +234,6 @@
 				82056067217DD00800E23A81 /* .projlint.yml */,
 				A102BDD51F023CAA000C6B38 /* .swiftlint.yml */,
 				0085926E2046FD1B00AB529F /* beak.swift */,
-				A102BDB71F023A7D000C6B38 /* Cartfile */,
-				A102BDB91F023A9A000C6B38 /* Cartfile.resolved */,
 				820560AD217DE95A00E23A81 /* CHANGELOG.md */,
 				820560AA217DE92600E23A81 /* CODE_OF_CONDUCT.md */,
 				820560AB217DE93100E23A81 /* CONTRIBUTING.md */,
@@ -288,83 +245,11 @@
 			name = RootFiles;
 			sourceTree = "<group>";
 		};
-		A102BDBA1F023B06000C6B38 /* Carthage */ = {
-			isa = PBXGroup;
-			children = (
-				A102BDBB1F023B13000C6B38 /* Framework */,
-				A102BDBC1F023B18000C6B38 /* Tests */,
-			);
-			name = Carthage;
-			sourceTree = "<group>";
-		};
-		A102BDBB1F023B13000C6B38 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				A102BDC11F023BFC000C6B38 /* iOS */,
-				A102BDC21F023C00000C6B38 /* macOS */,
-				A102BDC41F023C0F000C6B38 /* tvOS */,
-				A102BDC31F023C08000C6B38 /* watchOS */,
-			);
-			name = Framework;
-			sourceTree = "<group>";
-		};
-		A102BDBC1F023B18000C6B38 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A102BDC71F023C2B000C6B38 /* iOS */,
-				A102BDC81F023C2F000C6B38 /* macOS */,
-				A102BDC61F023C27000C6B38 /* tvOS */,
-			);
-			name = Tests;
-			sourceTree = "<group>";
-		};
-		A102BDC11F023BFC000C6B38 /* iOS */ = {
+		F9726F98228C64C000DB4F05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		A102BDC21F023C00000C6B38 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = macOS;
-			sourceTree = "<group>";
-		};
-		A102BDC31F023C08000C6B38 /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = watchOS;
-			sourceTree = "<group>";
-		};
-		A102BDC41F023C0F000C6B38 /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = tvOS;
-			sourceTree = "<group>";
-		};
-		A102BDC61F023C27000C6B38 /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = tvOS;
-			sourceTree = "<group>";
-		};
-		A102BDC71F023C2B000C6B38 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		A102BDC81F023C2F000C6B38 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = macOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,7 +306,7 @@
 			);
 			name = "Microya iOS";
 			productName = Microya;
-			productReference = A102BD3E1F02355A000C6B38 /* Microya.framework */;
+			productReference = F9726F80228C5E6400DB4F05 /* Microya.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A102BD461F02355A000C6B38 /* Microya iOS Tests */ = {
@@ -440,7 +325,7 @@
 			);
 			name = "Microya iOS Tests";
 			productName = MicroyaTests;
-			productReference = A102BD471F02355A000C6B38 /* Microya-iOS-Tests.xctest */;
+			productReference = F9726F81228C5E6400DB4F05 /* Microya-iOS-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		A102BD5C1F023573000C6B38 /* Microya macOS */ = {
@@ -459,7 +344,7 @@
 			);
 			name = "Microya macOS";
 			productName = "Microya macOS";
-			productReference = A102BD5D1F023573000C6B38 /* Microya.framework */;
+			productReference = F9726F82228C5E6400DB4F05 /* Microya.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A102BD641F023573000C6B38 /* Microya macOS Tests */ = {
@@ -478,7 +363,7 @@
 			);
 			name = "Microya macOS Tests";
 			productName = "Microya macOSTests";
-			productReference = A102BD651F023573000C6B38 /* Microya-macOS-Tests.xctest */;
+			productReference = F9726F83228C5E6400DB4F05 /* Microya-macOS-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		A102BD781F023582000C6B38 /* Microya tvOS */ = {
@@ -497,7 +382,7 @@
 			);
 			name = "Microya tvOS";
 			productName = "Microya tvOS";
-			productReference = A102BD791F023582000C6B38 /* Microya.framework */;
+			productReference = F9726F84228C5E6400DB4F05 /* Microya.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A102BD801F023582000C6B38 /* Microya tvOS Tests */ = {
@@ -516,7 +401,7 @@
 			);
 			name = "Microya tvOS Tests";
 			productName = "Microya tvOSTests";
-			productReference = A102BD811F023582000C6B38 /* Microya-tvOS-Tests.xctest */;
+			productReference = F9726F85228C5E6400DB4F05 /* Microya-tvOS-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		A102BD941F02358E000C6B38 /* Microya watchOS */ = {
@@ -535,7 +420,7 @@
 			);
 			name = "Microya watchOS";
 			productName = "Microya watchOS";
-			productReference = A102BD951F02358E000C6B38 /* Microya.framework */;
+			productReference = F9726F86228C5E6400DB4F05 /* Microya.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -545,38 +430,39 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Flinesoft;
 				TargetAttributes = {
 					A102BD3D1F02355A000C6B38 = {
 						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 1010;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Manual;
 					};
 					A102BD461F02355A000C6B38 = {
 						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					A102BD5C1F023573000C6B38 = {
 						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Manual;
 					};
 					A102BD641F023573000C6B38 = {
 						CreatedOnToolsVersion = 9.0;
 					};
 					A102BD781F023582000C6B38 = {
 						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 1010;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Manual;
 					};
 					A102BD801F023582000C6B38 = {
 						CreatedOnToolsVersion = 9.0;
 					};
 					A102BD941F02358E000C6B38 = {
 						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 1010;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -586,9 +472,10 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = A102BD341F02355A000C6B38;
-			productRefGroup = A102BD3F1F02355A000C6B38 /* Products */;
+			productRefGroup = A102BD341F02355A000C6B38;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -719,9 +606,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F167C82215AFE50094788D /* Result.swift in Sources */,
-				A1F167752215AE6E0094788D /* JsonApi.swift in Sources */,
-				A1F167CD2215B0360094788D /* Method.swift in Sources */,
+				F9E9588B228C406400047CE8 /* TargetType.swift in Sources */,
+				F9E95887228C406400047CE8 /* Method.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -737,9 +623,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F167C92215AFE50094788D /* Result.swift in Sources */,
-				A1F167762215AE6E0094788D /* JsonApi.swift in Sources */,
-				A1F167CE2215B0360094788D /* Method.swift in Sources */,
+				F9E9588C228C406400047CE8 /* TargetType.swift in Sources */,
+				F9E95888228C406400047CE8 /* Method.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -755,9 +640,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F167CA2215AFE50094788D /* Result.swift in Sources */,
-				A1F167772215AE6E0094788D /* JsonApi.swift in Sources */,
-				A1F167CF2215B0360094788D /* Method.swift in Sources */,
+				F9E9588D228C406400047CE8 /* TargetType.swift in Sources */,
+				F9E95889228C406400047CE8 /* Method.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -773,9 +657,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F167CB2215AFE50094788D /* Result.swift in Sources */,
-				A1F167782215AE6E0094788D /* JsonApi.swift in Sources */,
-				A1F167D02215B0360094788D /* Method.swift in Sources */,
+				F9E9588E228C406400047CE8 /* TargetType.swift in Sources */,
+				F9E9588A228C406400047CE8 /* Method.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -853,18 +736,20 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flinesoft.$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = Microya;
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = "${PROJECT_NAME}";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.2;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Debug;
 		};
@@ -915,27 +800,30 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flinesoft.$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = Microya;
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = "${PROJECT_NAME}";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.2;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Release;
 		};
 		A102BD531F02355A000C6B38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -943,11 +831,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Frameworks/SupportingFiles/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -955,10 +845,11 @@
 		A102BD541F02355A000C6B38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -966,10 +857,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Frameworks/SupportingFiles/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -980,12 +873,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8DHP3ZYQ2N;
+				DEVELOPMENT_TEAM = U28D54M5GD;
 				INFOPLIST_FILE = Tests/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flinesoft.$(TARGET_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:rfc1034identifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -996,12 +890,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8DHP3ZYQ2N;
+				DEVELOPMENT_TEAM = U28D54M5GD;
 				INFOPLIST_FILE = Tests/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flinesoft.$(TARGET_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:rfc1034identifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1009,8 +904,10 @@
 		A102BD6F1F023573000C6B38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -1021,6 +918,8 @@
 				INFOPLIST_FILE = Frameworks/SupportingFiles/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1031,8 +930,10 @@
 		A102BD701F023573000C6B38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -1043,6 +944,8 @@
 				INFOPLIST_FILE = Frameworks/SupportingFiles/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -1055,7 +958,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 767S6EFMJ8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tests/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
@@ -1071,7 +974,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 767S6EFMJ8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tests/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
@@ -1084,10 +987,11 @@
 		A102BD8B1F023582000C6B38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1102,17 +1006,18 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
 		};
 		A102BD8C1F023582000C6B38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1126,7 +1031,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
 		};
@@ -1165,9 +1070,9 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1193,7 +1098,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
