@@ -97,12 +97,12 @@
 		A15AD1211F02447E004D7ED3 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		A15AD1241F0262D1004D7ED3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A1F167732215A5260094788D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F90745B6228C6AF900DCB8D3 /* Microya-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Microya-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90745B7228C6AF900DCB8D3 /* Microya-macOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Microya-macOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90745B8228C6AF900DCB8D3 /* Microya-tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Microya-tvOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9726F80228C5E6400DB4F05 /* Microya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Microya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9726F81228C5E6400DB4F05 /* Microya-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Microya-iOS-Tests.xctest"; path = "/Users/julien/Documents/Personal/Microya/build/Debug/Microya-iOS-Tests.xctest"; sourceTree = "<absolute>"; };
 		F9726F82228C5E6400DB4F05 /* Microya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Microya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9726F83228C5E6400DB4F05 /* Microya-macOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Microya-macOS-Tests.xctest"; path = "/Users/julien/Documents/Personal/Microya/build/Debug/Microya-macOS-Tests.xctest"; sourceTree = "<absolute>"; };
 		F9726F84228C5E6400DB4F05 /* Microya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Microya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9726F85228C5E6400DB4F05 /* Microya-tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Microya-tvOS-Tests.xctest"; path = "/Users/julien/Documents/Personal/Microya/build/Debug-appletvos/Microya-tvOS-Tests.xctest"; sourceTree = "<absolute>"; };
 		F9726F86228C5E6400DB4F05 /* Microya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Microya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E95885228C406400047CE8 /* Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
 		F9E95886228C406400047CE8 /* TargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
@@ -172,6 +172,9 @@
 				F9726F86228C5E6400DB4F05 /* Microya.framework */,
 				F9726F98228C64C000DB4F05 /* Products */,
 				F9726F82228C5E6400DB4F05 /* Microya.framework */,
+				F90745B6228C6AF900DCB8D3 /* Microya-iOS-Tests.xctest */,
+				F90745B7228C6AF900DCB8D3 /* Microya-macOS-Tests.xctest */,
+				F90745B8228C6AF900DCB8D3 /* Microya-tvOS-Tests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -325,7 +328,7 @@
 			);
 			name = "Microya iOS Tests";
 			productName = MicroyaTests;
-			productReference = F9726F81228C5E6400DB4F05 /* Microya-iOS-Tests.xctest */;
+			productReference = F90745B6228C6AF900DCB8D3 /* Microya-iOS-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		A102BD5C1F023573000C6B38 /* Microya macOS */ = {
@@ -363,7 +366,7 @@
 			);
 			name = "Microya macOS Tests";
 			productName = "Microya macOSTests";
-			productReference = F9726F83228C5E6400DB4F05 /* Microya-macOS-Tests.xctest */;
+			productReference = F90745B7228C6AF900DCB8D3 /* Microya-macOS-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		A102BD781F023582000C6B38 /* Microya tvOS */ = {
@@ -401,7 +404,7 @@
 			);
 			name = "Microya tvOS Tests";
 			productName = "Microya tvOSTests";
-			productReference = F9726F85228C5E6400DB4F05 /* Microya-tvOS-Tests.xctest */;
+			productReference = F90745B8228C6AF900DCB8D3 /* Microya-tvOS-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		A102BD941F02358E000C6B38 /* Microya watchOS */ = {

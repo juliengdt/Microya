@@ -14,11 +14,12 @@ let package = Package(
             name: "Microya",
             targets: ["Microya"])
     ],
-    .target(
-        name: "Microya",
-        dependencies: [],
-        path: "Frameworks/Microya",
-        exclude: ["Frameworks/SupportingFiles"]
-    ),
-    swiftLanguageVersions: [.v5]
+    targets: [
+        .target(
+            name: "Microya",
+            dependencies: [],
+            path: "Frameworks/Microya",
+            exclude: ["Frameworks/SupportingFiles"]
+        )
+    ]
 )
