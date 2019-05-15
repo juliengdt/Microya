@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Microya"
-  s.version      = "0.3.0"
+  s.version      = "1.0"
   s.summary      = "A micro version of the Moya network abstraction layer written in Swift."
 
   s.description  = <<-DESC
@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "10.0"
   s.osx.deployment_target = "10.10"
   s.tvos.deployment_target = "12.0"
+  s.watchos.deployment_target = "12.0"
 
   s.source       = { :git => "https://github.com/Flinesoft/Microya.git", :tag => "#{s.version}" }
   s.source_files = "Frameworks/**/*.swift"
