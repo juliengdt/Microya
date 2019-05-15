@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Microya"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "A micro version of the Moya network abstraction layer written in Swift."
 
   s.description  = <<-DESC
