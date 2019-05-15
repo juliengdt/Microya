@@ -13,9 +13,9 @@
              alt="codebeat badge">
     </a>
     <a href="https://github.com/Flinesoft/HandySwift/releases">
-    <img src="https://img.shields.io/badge/Version-0.1.1-blue.svg"
+    <img src="https://img.shields.io/badge/Version-0.2.0-blue.svg"
          alt="Version: 0.1.1">
-    <img src="https://img.shields.io/badge/Swift-4.2-FFAC45.svg"
+    <img src="https://img.shields.io/badge/Swift-5.0-FFAC45.svg"
          alt="Swift: 4.2">
     <img src="https://img.shields.io/badge/Platforms-iOS%20%7C%20macOS%20%7C%20tvOS%20%7C%20watchOS-FF69B4.svg"
         alt="Platforms: iOS | macOS | tvOS | watchOS">
@@ -39,7 +39,7 @@ A micro version of the [Moya](https://github.com/Moya/Moya) network abstraction 
 
 ## Installation
 
-Installation is supported via [CocoaPods](https://github.com/CocoaPods/CocoaPods), [Carthage](https://github.com/Carthage/Carthage), [SwiftPM](https://github.com/apple/swift-package-manager) and [Mint](https://github.com/yonaskolb/Mint).
+Installation is supported via [CocoaPods](https://github.com/CocoaPods/CocoaPods), [Carthage](https://github.com/Carthage/Carthage), [Accio](https://github.com/JamitLabs/Accio), [SwiftPM](https://github.com/apple/swift-package-manager) and [Mint](https://github.com/yonaskolb/Mint).
 
 ## Usage
 
@@ -66,12 +66,12 @@ enum Language: String {
 }
 ```
 
-### Step 2: Making your Api `JsonApi` compliant
+### Step 2: Making your Api `TargetType` compliant
 
-Add an extension for your Api `enum` that makes it `JsonApi` compliant, which means you need to add implementations for the following protocol:
+Add an extension for your Api `enum` that makes it `TargetType` compliant, which means you need to add implementations for the following protocol:
 
 ```Swift
-protocol JsonApi {
+protocol TargetType {
     var decoder: JSONDecoder { get }
     var encoder: JSONEncoder { get }
 
@@ -90,7 +90,7 @@ Use `switch` statements over `self` to differentiate between the cases (if neede
 <summary>Toggle me to see an example</summary>
 
 ```Swift
-extension MicrosoftTranslatorApi: JsonApi {
+extension MicrosoftTranslatorApi: TargetType {
     var decoder: JSONDecoder {
         return JSONDecoder()
     }
@@ -170,7 +170,7 @@ extension MicrosoftTranslatorApi: JsonApi {
 
 ### Step 3: Calling your API endpoint with the Result type
 
-Call an API endpoint providing a `Decodable` type of the expected result (if any) by using this method pre-implemented in the `JsonApi` protocol:
+Call an API endpoint providing a `Decodable` type of the expected result (if any) by using this method pre-implemented in the `TargetType` protocol:
 
 ```Swift
 func request<ResultType: Decodable>(type: ResultType.Type) -> Result<ResultType, JsonApiError>

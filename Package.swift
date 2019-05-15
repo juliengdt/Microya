@@ -3,27 +3,22 @@ import PackageDescription
 
 let package = Package(
     name: "Microya",
+    platforms: [
+        .macOS(.v10_10),
+        .iOS(.v10),
+        .tvOS(.v12),
+        .watchOS(.v4)
+    ],
     products: [
-        .library(name: "Microya", targets: ["Microya"])
-    ],
-    dependencies: [
-//        .package(url: "https://github.com/Flinesoft/HandySwift.git", .upToNextMajor(from: "2.5.0")),
-//        .package(url: "https://github.com/Flinesoft/HandyUIKit.git", .upToNextMajor(from: "1.6.0"))
-    ],
-    targets: [
-        .target(
+        .library(
             name: "Microya",
-            dependencies: [
-//                "HandySwift",
-//                "HandyUIKit"
-            ],
-            path: "Frameworks/Microya",
-            exclude: ["Frameworks/SupportingFiles"]
-        ),
-        .testTarget(
-            name: "MicroyaTests",
-            dependencies: ["Microya"],
-            exclude: ["Tests/SupportingFiles"]
-        )
-    ]
+            targets: ["Microya"])
+    ],
+    .target(
+        name: "Microya",
+        dependencies: [],
+        path: "Frameworks/Microya",
+        exclude: ["Frameworks/SupportingFiles"]
+    ),
+    swiftLanguageVersions: [.v5]
 )
